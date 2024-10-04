@@ -551,9 +551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Play
-
-'
+  m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d37575b047adbc1438052cc40760b4bf, type: 2}
   m_sharedMaterial: {fileID: 8409761170267579115, guid: d37575b047adbc1438052cc40760b4bf, type: 2}
@@ -619,7 +617,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 5.3889737, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &765858279
