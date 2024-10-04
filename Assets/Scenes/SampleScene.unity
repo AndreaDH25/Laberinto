@@ -478,7 +478,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 899192972}
         m_TargetAssemblyTypeName: SceneManagerScript, Assembly-CSharp
-        m_MethodName: GameQuit
+        m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -841,59 +841,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
---- !u!1 &112637735
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 112637737}
-  - component: {fileID: 112637736}
-  m_Layer: 0
-  m_Name: No te vas a salir (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &112637736
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112637735}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.284594, y: 12.470446, z: 41.376656}
-  m_Center: {x: -0.6650553, y: 5.735223, z: 17.260708}
---- !u!4 &112637737
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112637735}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -247.93999, y: -378.60947, z: 25.617884}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 350655080}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120958913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,59 +1561,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
---- !u!1 &309428468
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 309428470}
-  - component: {fileID: 309428469}
-  m_Layer: 0
-  m_Name: No te vas a salir (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &309428469
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309428468}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.284594, y: 12.470446, z: 41.376656}
-  m_Center: {x: -0.6650553, y: 5.735223, z: 17.260708}
---- !u!4 &309428470
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309428468}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -241.13998, y: -378.60947, z: 10.917884}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 350655080}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &312825181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3673565609263920879, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
@@ -1691,8 +1585,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3963232, y: 4.6290092, z: 1}
-  m_Center: {x: 0.81522655, y: 2.235937, z: 0}
+  m_Size: {x: 2.1878536, y: 4.6290092, z: 1}
+  m_Center: {x: 0.7109917, y: 2.235937, z: 0}
 --- !u!4 &312825183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4270705747938137374, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
@@ -1954,8 +1848,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.4179587, y: 1, z: 3.7417605}
-  m_Center: {x: -0.02322001, y: 0, z: -0.00825783}
+  m_Size: {x: 1.0456828, y: 1, z: 3.7417607}
+  m_Center: {x: -0.20935802, y: 0, z: -0.0082578985}
 --- !u!1 &343442383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,41 +1942,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 473179349}
   m_LocalEulerAnglesHint: {x: 77.687, y: 0, z: 0}
---- !u!1 &350655079
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 350655080}
-  m_Layer: 0
-  m_Name: Pa que no pase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &350655080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350655079}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 179.73999, y: 382.24948, z: -3.6178834}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1334181063}
-  - {fileID: 309428470}
-  - {fileID: 112637737}
-  - {fileID: 2099541321}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382550070
 GameObject:
   m_ObjectHideFlags: 0
@@ -4341,8 +4200,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5186327, y: 4.6290092, z: 1}
-  m_Center: {x: 0.87638175, y: 2.235937, z: 0}
+  m_Size: {x: 2.2406735, y: 4.6290092, z: 1}
+  m_Center: {x: 0.7374021, y: 2.235937, z: 0}
 --- !u!4 &723938994 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4270705747938137374, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
@@ -6874,59 +6733,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
---- !u!1 &1334181061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1334181063}
-  - component: {fileID: 1334181062}
-  m_Layer: 0
-  m_Name: No te vas a salir
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &1334181062
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334181061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.284594, y: 12.470446, z: 41.376656}
-  m_Center: {x: -0.6650553, y: 5.735223, z: 17.260708}
---- !u!4 &1334181063
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334181061}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -154.23999, y: -378.60947, z: -14.082117}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 350655080}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1365939361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8208,8 +8014,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5186327, y: 4.6290092, z: 1}
-  m_Center: {x: 0.87638175, y: 2.235937, z: 0}
+  m_Size: {x: 2.3101635, y: 4.6290092, z: 1}
+  m_Center: {x: 0.7721472, y: 2.235937, z: 0}
 --- !u!1 &1581756328
 GameObject:
   m_ObjectHideFlags: 0
@@ -8449,8 +8255,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5332043, y: 4.6290092, z: 1}
-  m_Center: {x: 0.8836675, y: 2.235937, z: 0}
+  m_Size: {x: 2.1693828, y: 4.6290092, z: 1}
+  m_Center: {x: 0.7017568, y: 2.235937, z: 0}
 --- !u!1001 &1611114340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8657,8 +8463,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5332043, y: 4.6290092, z: 1}
-  m_Center: {x: 0.8836675, y: 2.235937, z: 0}
+  m_Size: {x: 2.28999, y: 4.6290092, z: 1}
+  m_Center: {x: 0.7620601, y: 2.235937, z: 0}
 --- !u!4 &1633534382 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4270705747938137374, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
@@ -8909,8 +8715,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3963232, y: 4.6290092, z: 1}
-  m_Center: {x: 0.81522655, y: 2.235937, z: 0}
+  m_Size: {x: 2.1755807, y: 4.6290092, z: 1}
+  m_Center: {x: 0.704855, y: 2.235937, z: 0}
 --- !u!1 &1652832260
 GameObject:
   m_ObjectHideFlags: 0
@@ -10207,8 +10013,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.4875774, y: 4.6290092, z: 1}
-  m_Center: {x: 0.86085415, y: 2.235937, z: 0}
+  m_Size: {x: 2.2786865, y: 4.6290092, z: 1}
+  m_Center: {x: 0.7564087, y: 2.235937, z: 0}
 --- !u!1 &1802428152 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3673565609263920879, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
@@ -10419,8 +10225,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.4875774, y: 4.6290092, z: 1}
-  m_Center: {x: 0.86085415, y: 2.235937, z: 0}
+  m_Size: {x: 2.244363, y: 4.6290092, z: 1}
+  m_Center: {x: 0.73924685, y: 2.235937, z: 0}
 --- !u!4 &1841688912 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4270705747938137374, guid: 43b3bcef0df7acb41983f272a144f4ee, type: 3}
@@ -11790,59 +11596,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2099541319
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2099541321}
-  - component: {fileID: 2099541320}
-  m_Layer: 0
-  m_Name: No te vas a salir (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &2099541320
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099541319}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.284594, y: 12.470446, z: 41.376656}
-  m_Center: {x: -0.6650553, y: 5.735223, z: 17.260708}
---- !u!4 &2099541321
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099541319}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -240.13998, y: -378.60947, z: 59.61788}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 350655080}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2109761922
 GameObject:
   m_ObjectHideFlags: 0
@@ -12071,5 +11824,4 @@ SceneRoots:
   - {fileID: 1731000905}
   - {fileID: 899192971}
   - {fileID: 1704787432}
-  - {fileID: 350655080}
   - {fileID: 120958914}
